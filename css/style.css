@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.container{
+    width: 100%;
+    height:100%;
+}
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height:100px;
+    width:85%;
+    padding: 25px 25px;
+    
+}
+.link-item{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap:50px; 
+}
+.link-item p{
+    color:rgb(5, 5, 61);
+    /* font-size: 20px; */
+    font-size: 1rem;
+    font-weight: bold;
+    color: #1a2b63;
+    font-family: "Helvetica Neue", sans-serif;
+    
+}
+.logo{
+    border: 5px solid rgb(5, 5, 61);
+    padding: 5px;
+    width:90px;
+    
+}
+.sad h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-family: sans-serif;
+}
+.display-image{
+    position: relative;
+}
